@@ -1,0 +1,38 @@
+:root{
+    --paradise: #EF476F;
+    --crayola: #FFD166;
+    --green: #06D6A0;
+    --powder: #FFEABA;
+}
+
+body{
+    background: var(--powder);
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    /* justify-content: center; */
+}
+
+.wrapper{
+    display: flex;
+}
+
+.box{
+    padding: 4rem;
+    flex-grow: 1;
+}
+
+.red{
+    background: var(--paradise);
+}
+
+.yellow{
+    background: var(--crayola);
+}
+
+.green{
+    background: var(--green);
+}
